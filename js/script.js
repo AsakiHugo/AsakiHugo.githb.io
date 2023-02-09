@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     ScrollTrigger.create({
       trigger: elem,
-      markers: true,
+      markers: false,
       onEnter: function () {
         animateFrom(elem);
       },
