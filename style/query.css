@@ -1,0 +1,299 @@
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+    .about-us {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    .about-us .more-about-info,
+    .about-us .contact-policy {
+        padding-left: 40px;
+    }
+    .contact .second-contact {
+        padding: 0 20px;
+    }
+    .second-contact .email-2 {
+        width: 100%;
+    }
+    .second-contact .btn {
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    main {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    main .face-container {
+        width: 100%;
+    }
+    main .illustration-1 {
+        width: 100%;
+    }
+    .services {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .services .services-container {
+        width: 100%;
+    }
+    .services .illustration-2 {
+        width: 100%;    
+    }
+    .contact {
+        padding: 60px 80px;
+        height: min-content;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact .contact-container {
+        width: 100%;
+    }
+    .contact-container .desc {
+        width: 100%;
+        padding: 15px 0 0;
+        color: var(--Light-Gray);
+    }
+    .contact .second-contact {
+        width: 100%;
+        align-items: center;
+    }
+    .second-contact .email-2 {
+        width: 80%;
+    }
+    .second-contact .btn {
+        width: 80%;
+    }
+    .about-us {
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: var(--page-padding);
+    }
+    .about-us .logo {
+        grid-column: 0;
+        align-self: flex-start;
+    }
+    .contact-us .phone,
+    .contact-us .email,
+    .more-about-info .link,
+    .contact-policy .link {
+        font-size: 20px;
+    }
+    .more-about-info .link:hover,
+    .contact-policy .link:hover {
+        transform: scale(1.05);
+    }
+    .about-us .media {
+        align-self: center;
+    }
+    .about-us .media i {
+        font-size: 34px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    header {
+        padding: 0px 30px;
+    }
+    .menu-lists .list-item {
+        padding: 40px 10px;
+    }
+    main {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 40px 30px 60px;
+    }
+    main .face-container {
+        width: 100%;
+    }
+    main .illustration-1 {
+        width: 100%;
+    }
+    .desc {
+        width: 100%;
+    }
+    .services {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 60px 30px;
+    }
+    .services .services-container {
+        width: 100%;
+    }
+    .services .illustration-2 {
+        width: 100%;    
+    }
+    .services-container .review-card {
+        width: 100%;
+    }
+    .contact {
+        padding: 40px 30px;
+        height: min-content;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact .contact-container {
+        width: 100%;
+    }
+    .contact-container .desc {
+        width: 100%;
+        padding: 15px 0 0;
+        color: var(--Light-Gray);
+    }
+    .contact .second-contact {
+        width: 100%;
+        align-items: center;
+    }
+    .second-contact .email-2 {
+        width: 100%;
+    }
+    .second-contact .btn {
+        width: 100%;
+    }
+    .about-us {
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 30px;
+    }
+    .about-us .logo {
+        grid-column: 0;
+        align-self: flex-start;
+    }
+    .contact-us .phone,
+    .contact-us .email,
+    .more-about-info .link,
+    .contact-policy .link {
+        font-size: 20px;
+    }
+    .more-about-info .link:hover,
+    .contact-policy .link:hover {
+        transform: scale(1.05);
+    }
+    .about-us .media {
+        align-self: center;
+    }
+    .about-us .media i {
+        font-size: 34px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    header {
+        padding: 0px 15px;
+    }
+    header .logo {
+        width: 80px;
+        height: 25px;
+    }
+    .menu-lists .list-item {
+        font-size: 14px;
+        padding: 35px 5px;
+    }
+    main {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 40px 15px 60px;
+    }
+    main .face-container {
+        width: 100%;
+    }
+    .title {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .face-container .start-contact {
+        flex-direction: column;
+    }
+    .second-contact .email-2,
+    .start-contact .email-1,
+    .second-contact .btn,
+    .start-contact .btn {
+        width: 100%;
+    }
+    main .illustration-1 {
+        width: 100%;
+    }
+    .desc {
+        font-size: 16px;
+        padding: 15px 0;
+        width: 100%;
+    }
+    .services {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 60px 30px;
+    }
+    .services .services-container {
+        width: 100%;
+    }
+    .services .illustration-2 {
+        width: 100%;    
+    }
+    .services-container .review-card {
+        width: 100%;
+    }
+    .contact {
+        padding: 40px 15px;
+        height: min-content;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact .contact-container {
+        width: 100%;
+    }
+    .contact-container .desc {
+        width: 100%;
+        padding: 15px 0 0;
+        color: var(--Light-Gray);
+    }
+    .contact .second-contact {
+        width: 100%;
+        align-items: center;
+    }
+    .second-contact .email-2 {
+        width: 100%;
+    }
+    .second-contact .btn {
+        width: 100%;
+    }
+    .about-us {
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 15px;
+    }
+    .about-us .logo {
+        grid-column: 0;
+        align-self: flex-start;
+    }
+    .about-us .contact-us,
+    .about-us .more-about-info,
+    .about-us .contact-policy {
+        gap: 10px;
+    }
+    .contact-us .phone,
+    .contact-us .email,
+    .more-about-info .link,
+    .contact-policy .link {
+        font-size: 16px;
+    }
+    .more-about-info .link:hover,
+    .contact-policy .link:hover {
+        transform: scale(1.05);
+    }
+    .about-us .media {
+        align-self: center;
+    }
+    .about-us .media i {
+        font-size: 28px;
+        padding-right: 20px;
+    }
+    .attribution { 
+        font-size: 12px; 
+    }
+}
